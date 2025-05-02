@@ -70,11 +70,21 @@ Once the app launches, you can:
 
 ```
 PREDICTING-STUDENT-SUCCESS-IN-ONLINE-LEARNING/
-├── Dataset/               # Folder to store your dataset CSV files
-│   └── DatasetLink.txt    # Optional text file with dataset source info or links
-├── Main.py                # Main Python script with GUI and ML logic
-├── README.md              # Project documentation (this file)
-└── requirements.txt       # List of Python dependencies
+├── Dataset/ # Folder to store your dataset CSV files
+│ └── DatasetLink.txt # Optional text file with dataset source info or links
+├── screenshots/ # Folder containing GUI screenshots for documentation
+│ ├── 1_home_screen.png
+│ ├── 2_upload_dataset.png
+│ ├── 3_grade_distribution.png
+│ ├── 4_preprocessing.png
+│ ├── 5_random_forest.png
+│ ├── 6_gradient_boosting.png
+│ ├── 7_comparison_graph.png
+│ ├── 8_upload_testdata.png
+│ └── 9_prediction_output.png
+├── Main.py # Main Python script with GUI and ML logic
+├── README.md # Project documentation (this file)
+└── requirements.txt # List of Python dependencies
 ```
 
 ---
